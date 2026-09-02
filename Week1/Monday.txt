@@ -1,0 +1,293 @@
+Paula (trainer) Email - pkedra@spartaglobal.com
+
+#### **Summary**
+- **General course information**
+- **Daily timetable**
+- **PDP**
+- **SWOT**
+- **Data role research and presentation**
+
+## Sessions
+### Setup and Admin
+
+All info will be on the SharePoint (Recordings on there)
+
+Instructions are normally on Teams
+
+**Slack** (everything on it) - Keep an eye out for it all later
+- add PFP to all sites (9:30am tomorrow)
+- Slack and Microsoft outlook etc. 
+
+**3-BEFORE-ME** method
+ - work it out alone
+ - solutions online
+ - colleagues support
+Then Paula or higher ups
+
+### Information
+
+**Sparta Global:**
+- **H-T-D** methods
+- Mix of Education and Work
+
+Possibilities of early graduation during placement (small chance)
+Also possible multi-client instead of single.
+
+9 - 9:30am admin time - **Be Online** from then (contractual time)
+
+**Weekly Modules -** 
+- **W1** - Induction, Agile, Scrum
+- **W2** - Data concepts and Tech fundamentals
+- **W3** - SQL
+- **W4** - Python Fundamentals
+- **W5** - Python for Data
+- **W6** - NoSQL
+- **W7** - Cloud
+- **W8** - Final project
+
+**Final project** - End-to-End data pipeline (AWS - Python - SQL - Visualisation)
+
+Assessments / Module
+
+AWS for duration of course (access to azure, google cloud)
+
+**Daily Schedule** 
+**9:00am   :** Meet with colleagues and recap
+**9:30am   :** Daily stand-up
+**10:00am :** Morning Training Session 
+**12:30pm :** Lunch break
+**13:30pm :** Afternoon Training Session
+**15:30pm :** Independent work
+**17:00pm** **:** Close
+
+On time for sessions, cams on, mic muted, 
+
+If something is probably behind LET PAULA KNOW.
+
+**Dress Code** 
+Smart-Casual 
+(Have Professional clothes on hand for just in case)
+
+WEDNESDAY FORMAL BUSINESS MEETING DAY
+
+**Behavioural qualities**
+Delivery | Engagement | Professionalism | Communication
+
+#### Workshop 1 - T-Shaped Professional
+
+Skillsets during training, placement and beyond
+
+**Tomorrow** - Profiles 
+
+## Afternoon
+
+**PDP** - Personal Development Plan
+- Tracked on Salesforce
+- Objectives and Tasks
+	- All parties (Sparta, Client, and Personal)
+
+1-1 meetings / 2 weeks
+
+**Identifying areas for Improvement** - Strengths | Weaknesses | Opportunities | Threats **(SWOT)**
+**SMART** targets
+
+2 Objectives to be added to the PDP 
+
+**SWOT** 
+**S** - Communication and Adaptability, Willing to learn and have a go, confident discussing understood content and helping others with any issues. Transferring knowledge into new subjects and tasks. Converting information to various methods of communication.
+
+**W** - Not super confident in transferring maths programming into industry style, not taking full advantage of material and information. 
+
+**O** - SQL and AWS/ cloud based programming as part of the training, Refreshing old skills from degree in data analytics and programming, 
+
+**T** - Not a tech background (Computer Science) so might struggle to initially gel with more industry style of programming.
+
+#### Presentation Skills
+
+#### Steve Jobs (Inspire/ Sell)
+Explore methods and case studies
+
+Various presentation styles 
+- Dashboards
+- Notebooks
+- Code
+- To learn
+- To demonstrate
+
+**Good Qualities**
+- Intentional Pauses
+- Slow and Confident Speaking
+- No notes, revised
+- Informational but not intensive
+- Data backed
+- Powerpoint simple but enough to compare and provide visual aid
+- Physical props and product
+- Clear comparisons
+- Highlights key points and new features positively 
+- Deviation from expectation (MEMORABLE) Manilla Envelope Moment
+
+Story Arc - Hook (Problem/ Question etc.), Struggle (share the challenges), Resolution (Solution/ insights/ success),  Bonus (Key takeaway for impact)
+
+#### Activity - Slide Discussion
+
+Heatmap/ Differing sized Discs, Case Studies, Clear Slide Title (not clinical, Interesting (London is the hotspot for software roles))
+
+#### McKinsey Presentation Principles (Persuade)
+
+Management Consultancy (Big 3)
+
+**TITLE**
+Logo, Title, Subheading, Date, Copyright 
+Clear structure
+
+**Normal Slide**
+Action title
+Slide Body 
+Source/ Footer
+
+**Conclusion**
+Key Takeaways
+Action points
+Numbered / bp'd
+
+
+**Pyramid Principle** 
+Answer - (3) Insights - (3) Supportive data/ sources etc.
+
+**Why?** 
+Clear and concise communication
+Aids retention of key points
+Allows engagement and critical thinking
+Helps ensure presenter all info is relevant
+
+
+**Each presentation has a purpose!!**
+
+### Course Overview
+
+**Tools covered**
+Servers - SQL server,  MongoDB, Data warehouses and Data Lakes,
+Python - pandas, mpl 
+PySpark
+AWS 
+Apache Hadoop
+ETL and ELT pipelines
+Scrum
+Git/GitHub
+
+**Type of roles**
+Data Engineer/ Analyst/ Scientists,
+Data Architect, Modeller, AI engineer, Data Manager + more
+(all very similar)
+
+Find what tools I enjoy
+- Exploration of various tools
+
+
+### Research Task
+
+**Research the roles**.
+**What roles do I see for myself**.
+**Skills do I need.**
+**Skills I have**.
+
+Present in groups
+
+Cohesion/ transitions 
+
+5 mins / person max
+- Aim for 3-4 mins
+
+Tomorrow at 9:30am
+
+
+**Data Analyst**
+Trend based - business decision
+SQL mostly - language to query databases
+Excel - small datasets
+Visualisation to convey information
+
+**Data Scientist** 
+Predicting the future using ML 
+Mathematically focussed
+Programming based (Python)
+
+**Data Engineer**
+Developing the data stores 
+Background
+Cleaning and organisation
+SQL and Python
+
+-------------------------------------------------------------------------
+### PowerPoint 9:30 AM
+
+This is our presentation on exploring what roles look like in data. 
+
+**Similarities and differences**
+
+SQL and data concepts and understanding
+
+Data science - AI and ML skills
+Data analysis - business and stakeholder focus
+Data engineering - purely behind the scenes instead of dealing with business.  
+
+**Data Scientist** - Dealing with the future of data, predictions, answering business questions with data
+
+- Maths background (understand maths behind coding)
+- Projects (Data cleansing with artificial noise with various methods)
+- AI (Machine Learning project on data prediction, and assessing importance of features to data),-
+- Used to programming with intent to solve problems as part of coursework
+- Technically challenging but eager to learn about new tools (SQL, etc.) as this is biggest downfall, technical knowhow. 
+- Best of all options for me personally
+
+**Data Engineer** - dealing with the background of data, the pipeline, cleansing and preparation of data for internal use
+
+- Confidence translating python skills to SQL and more complex tasks
+- Logical decomposition of complex problems due to project history is a key skill
+- 4/5 due to current less interest in that style of work
+
+**Data Analyst** - more focussed on business aspects of data, providing insights based on prepared data to give reasonable suggestions
+
+- Communication is key when presenting, confident and comfortable in that environment
+- Data analytic skills are a key component, easy for me to translate from my degree
+- 3/5 due to lack of problem solving technical application beyond basic SQL that I thrive in and enjoy
+
+Conclusion - Differences and preferences between each of us, but there are certain overarching skills we already share and will share by the end of the training that make us suitable for all these roles. Thanks a lot for listening.
+
+-------------------------------------------------------------------------
+**Feedback** - Good but transitions between people (not important just a point to make) (personal presentation)
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+# HR Meeting
+
+Client approval on any leave request
+
+3 days approved leave over Christmas
+
+6 days sick and appointment leave
+
+Client side then HR@spartaglobal.com
+
+Salesforce
+
+Complete timecards **every Friday by 9:30am** 
+
+Complete iHasco training -> Managers approval
+
+XCD - personal details, leave requests, company docs, timecards
+
+People hub - everything HR
+
+My HR page everything online
+
+**All info to be emailed**
+
+**pptx. available to review**
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+
+
+
+

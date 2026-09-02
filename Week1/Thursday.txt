@@ -1,0 +1,366 @@
+
+#### **Summary**
+- **Agile methodologies**
+- **Scrum framework**
+- **Acceptance Criteria**
+- **User Stories**
+- **Estimation and Prioritisation**
+- **DoD and DoR**
+
+
+## Sessions
+
+### Agile and Scrum (software development lifecycles)
+
+SDLC's fit in the executing and monitoring & controlling stages (planned out during the normal stage)
+
+#### **Summary**
+- **Requirements gathering**
+- **User Stories**
+- **Acceptance Criteria**
+- **Estimation and Prioritisation**
+- **DoR & DoD**
+- **Sprint Ceremonies**
+
+#### Life cycle examples
+- **Waterfall** 
+	- Actions follow on from one to another
+	- All planning is upfront (long time spent doing this)
+	- All tickets done upfront
+	- Distinct phases
+	- Need consistent non-changing requirements
+	- Possible examples - Short-term project, medicine, construction
+- **Agile**
+	- Iterative and Incremental 
+	- Plan -> Do -> Check  per increment
+	- Constant Feedback
+	- Inappropriate for short term projects
+	- Scope creep -> doing too much after the planning phases
+	- Lack of formal documentation
+
+
+### Agile 
+
+**Values**
+- Individuals and interactions over tools and processes
+- Working software over comprehensive documentation
+- Customer collaboration over contract negotiation
+- Responding to change over following a plan
+
+**12 principles**
+- **1.** Customer satisfaction through continuous 
+- **2.** Welcome changing requirements, harness change to give 
+- **3.** Deliver working software frequently, shorter timescale preferred
+- **4.** Business people and developers need to work together daily
+- **5.** Build projects around motivated individuals and trust them
+- **6.** Face to face conversation on top
+- **7.** Working software is the primary measure
+- **8.** Agile processes promote sustainable development
+- **9.** Technical excellence and good designs enhances agility
+- **10.** Simplicity is essential
+- **11.** Self organising teams yield the best architectures, requirements, and designs
+- **12.** Regular reflection to improve efficiency, encouraging tuning
+#### **Be able to recognise agile principles** 
+
+#### Agile methodologies
+- Test Driven Development
+- ***Scrum*** - Widely used
+- Kanban
+- FDD
+- BDD
+
+### The Scrum Framework
+
+**Artifacts vs Events**
+- *Artifacts* are real things - Product backlog, Sprint backlog
+- *Events* - Meetings, Sprint planning, Review, Daily Scrum
+
+**Topics**
+- **Requirement gathering**
+- **User Stories and Acceptance Criteria**
+- **Estimation**
+- **Prioritisation**
+- **Definition of ready and done**
+- **Sprint Planning**
+- **Stand up**
+- **Sprint Review**
+- **Retrospectives**
+#### Scrum
+- Lightweight framework for people to generate value through adaptive solutions to complex problems
+- Scrum master fosters
+	- Owner orders work for a complex problem into a backlog 
+	- Team then turns a selection of the work into an *increment* of value in a sprint
+	- Inspection of results from stakeholders and team then adjust
+- Idea is to optimize predictability and control risk
+- Transparency throughout all inspections (by the whole scrum team) that are encouraged to be done frequently and diligently and if any issues face then adaptation is continuously done
+- Scrum team made up of a cohesive team of equals with a product owner and scrum master
+	- Self managed teams with internal decision making
+	- <10 members
+	- All responsible to contribute to creating a valuable *Increment* during each *Sprint*
+
+**Scrum team**
+- Co-located
+-  Engaged with customer(s)
+- Self-Organising
+- Accountable and empowered
+- Cross-functional
+
+- **Developer**
+	- Committed to creating any aspect of a useful *Increment* each *Sprint* 
+	- Create a plan
+	- Instilling quality
+	- Adapting plans
+	- Holding each other accountable 
+- **Product owner**
+	- Maximising the value of the product from the work of the Scrum team
+	- Communicating the product goal
+	- Communicating product backlog items
+	- Ordering product backlog items
+	- Ensuring transparency and visibility of the product
+- **Scrum Master**
+	- Coaching team members in self-management 
+	- Taking responsibility for all impediments to the progress
+	- Helping Product owner with any tasks that need assistance
+	- Leading, training, and coaching the organization on Scrum
+	- Planning and advising Scrum implementations
+	- Facilitating meetings
+
+
+**Scrum events**
+- **Sprints** are where ideas turn into value
+	- Fixed length duration
+	- No changes that would endanger the goal are done during it
+- **Sprint planning** - at the start sprints
+	- Layout of the work to be done in the Sprint
+	- Team defined Sprint goal based on input of the product owner
+	- Selecting items from the product backlog
+	- Planning on the work during the Sprint to create an *Increment*
+- **Daily Scrum**
+	- Produce an  actionable plan for the next day of work
+	- Communication line
+	- Adaptations and Replans happen during the Daily Scrum
+- **Sprint Review**
+	- Inspection of the Sprint and determine future adaptations
+	- Collaborative adjustment of plan and even product backlog
+	- Max 4hrs
+- **Sprint Retrospective**
+	- Plan to increase effectiveness and quality
+	- Final item of the sprint
+
+**Scrum Artifacts**
+- Each action can be measured
+	- Product backlog = Product Goal
+	- Sprint backlog = Sprint Goal
+	- Increment = Definition of Done
+- **Product backlog**
+	- Ordered list of actions to improve the product
+	- Source of work for the scrum team
+	- Product goal is the future state of the product and is a task in the backlog
+		- Long term objective
+- **Sprint backlog**
+	- Sprint goal, set of product backlog items for the sprint, actionable plan for the increment implementation
+	- By and for developers
+	- Sprint goal is the sole objective for the Sprint
+- **Increment**
+	- Concrete stepping stone toward the product goal
+	- All increments in a sprint presented during sprint review
+	- Definition of Done formal description of the state of the increment where it meets the quality measures for the product
+	- Product backlog -> Definition of done => Increment created
+
+
+**Requirements**
+- Could be from Business stakeholders, Developers, Testers
+- **Functional** - what the system should do
+- **Non-functional requirements** -how the system should do things
+	- performance, security, reliability, scalability, maintainability, usability, accessibility, legal
+- **Requirement Elicitation** - Direct means, Observation, Surveys, Document analysis, workshops, prototyping, brainstorming
+
+**User stories**
+- As a "type of user", I want "goal" so that "reason"
+- Pointers to the real requirements
+- Give context to request/ requirements 
+- Structure
+	- **Feature** - Key take away
+	- **Epic** - Overall description of the user stories
+	- **User stories** - specific functional requirements to be part of the system
+- Written by anyone, good projects account for all team members
+- *Three Amigos* : tester, developer, analyst all assess the features
+- Good user story :
+	- Understandable
+	- "**As a... I want... So that...**"
+	- INVEST:
+		- Independent
+		- Negotiable
+		- Valuable
+		- Estimable
+		- Small
+		- Testable
+- Three C's
+	- Card
+	- Conversation
+	- Confirmation
+
+### Activity - Parachuting School
+
+![[Pasted image 20260820110100.png]]
+
+**Example User Stories (2nd point)**
+- As a customer, I want to buy parachutes and harnesses online, so that I can parachute safely.
+- As a customer, I want to compare prices online, so that I can affordably get involved.
+- As a customer, I want to know how long I could rent it for, so that I understand the offer.
+- As a customer, I want to easily navigate the website, so that I can easily buy and view items.
+- As a website owner, I want the website to load quickly, so that I can get and keep more customers.
+- As a website owner, I want to be able to sell T-shirts and memorabilia online, so that customers might buy them.
+- As a customer, I want to find lesson information easily, so that I know what I would be doing.
+- As a customer, I want to be able to book lessons simply, so that it's easy to get involved
+
+
+
+#### Acceptance Criteria
+- Minimum criteria for a user story to be satisfied
+- Structured using the ***Gherkin Scenario***
+	- Given... (and),  When... (and), Then... (and)
+	- Translates easily into tests
+	- Various types of paths 
+		- Happy - Correct input then output (correct log-in information)
+		- Sad - Incorrect input then output (log-in with invalid password)
+		- Alternative - Unexpected or different (log-in with Facebook)
+
+
+**Example and their acceptance criteria**
+- As a customer, I want to buy parachutes and harnesses online, so that I can parachute safely.
+	- Given I am a customer, when I look on the web store, then I should see parachutes and harnesses available to buy 
+	- Given I am a customer, when I look on the web store but there is not stock, then I should see there is no stock and not have opportunity to buy it
+- As a customer, I want to find lesson information easily, so that I know what I would be doing.
+	- Given I am a customer, when I want to book a parachuting lesson and the lesson is fully booked, then I should be unable to book that session and should be informed it is full
+- As a customer, when I am buying an item and have insufficient funds, the transaction should be cancelled and the payment screen should reset with the item still there.
+- Given I am a customer, when I am trying to buy an item and I am using PayPal instead of stereotypical card purchase, I should be able to do so easily
+
+#### Estimation and Prioritisation
+Estimate the size of a user priority 
+
+User stories placed into the product backlog in priority order
+- Measured by business value (int to represent value to stakeholders and business owners), estimated effort (int to represent time or "story points"), and dependencies (what else needs to be completed first)
+
+**Planning Poker** (Pick out the estimated effort of a user story)
+- Decide on a scale (1-5) to represent the effort of each user story
+- Issue planning poker cards to each team member
+- The team discusses the effort of completing a task before revealing all cards at the same time
+- If there is a big discrepancy then discuss the reasoning behind it, then reassess and repeat the vote
+
+**MoSCoW**
+- Mo - Must have (absolutely necessary for the working website)
+- S - Should have (important features that make the website suitable)
+- Co - Could have (not necessary and low priority)
+- W - Won't have (low priority irrelevant items)
+
+**MVP - Minimum Viable Product**
+- Just enough to get it running 
+- Low effort high reward
+
+#### Definition of Done & Ready
+- Short checklist of prerequisites (DoR)
+- Short checklist of necessary actions for completion (DoD)
+- Can be applied to a Project, Sprint, User Story
+- Example of DoR for a Sprint
+	- Sprint goal agreed
+	- Backlog agreed
+	- Complete and entire backlog
+	- Necessary technical resources available
+	- There's enough time to complete the stories in the backlog
+	- Any dependencies resolved
+- Example of DoR for a User Story
+	- Everyone agrees on the meaning of the User Story
+	- Acceptance criteria (happy and sad) accounted for
+- Example of DoD for a Sprint
+	- Every US is done
+	- Performance tests passed
+	- Acceptance tests passed
+	- Any bugs closed or postponed
+	- Unit test coverage complete
+	- Coding standards passed
+- Example of DoD for a user story
+	- All code is test have been checked in
+	- All unit tests passed
+	- Acceptance criteria met
+	- Coding standards passed
+
+#### Scrum ceremonies
+- Sprint planning
+- Daily Scrum
+- Sprint review
+- Sprint retrospective
+
+**Sprint**
+- No changes that would endanger Sprint goal
+- Quality does not decrease
+- Product backlog altered as needed
+- Cancelled if goal is obsolete
+- Scope can be clarified and renegotiated with the Product Owner
+
+**Sprint Planning**
+- Define Goal
+- Select items from the Product backlog to go into the Sprint backlog
+- Plan how the Sprint will be done
+
+**Development**
+- Devs select a User Story to work on, from the top
+- user Story dev work includes coding unit testing etc.
+- Move into for review when met DoD
+
+**Daily Scrum**
+- What did I achieve?
+- What am I planning to do?
+- Any blockers?
+- Discuss and adjust backlog?
+
+**Sprint Review** (Everyone)
+- Outcomes of the Sprint
+- Scrum team and Stakeholders review what has been accomplished
+- Are any user stories incomplete or not started
+	- Separate into Done and Not Done
+- Discuss what to do next
+	- Update Product Backlog
+
+**Sprint Retrospective** (Just team)
+- How did it go?
+- WWW?
+- What to improve?
+- Commit to the most impactful improvements?
+**Tools**
+- The agenda
+	- Set the stage
+	- Gather data
+	- Generate insights
+	- Decide what to do
+	- Close the retro (summarize action points)
+- Team Retro Board 
+	- WWW
+	- EBI
+	- Actions
+- Emotional Seismograph
+- Retro Starfish 
+	- Keep doing
+	- More of
+	- Start doing
+	- Stop doing
+
+
+Re-read - Agile Manifesto/ Agile principles/ Scrum guide
+
+
+
+## Main Task
+
+Review and recap any Agile/Scrum/ and Project Stakeholders
+
+Revision Task
+
+2 objectives noted down
+
+
+
+
+
+
+

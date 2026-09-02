@@ -1,0 +1,186 @@
+
+#### **Summary**
+- **Projects and Stakeholders**
+- **Week 1 assessment content (stakeholders, POPIT, management, attitudes)**
+
+## Sessions
+
+
+**HR email** (cc in trainers) - pre-approved annual leave, sick leave (8:30), contract info, benefits, etc.
+
+**Office Admin** - Attending the office (LDN)
+
+**Helpdesk** - any IT issues (log ins, general issue, salesforce (sometimes)), Laptop request
+
+**Salesforce** (mixed in with HR email) - PDP,  Timecards, contact info  
+
+**NHS test and trace programme** -
+- Goals
+	- Find people who had come in close contact with those infected
+	- Prevent further spread through isolating people that could have it 
+- Failure
+	- Excel row limit error in the case handling pipeline meant 15,841 cases weren't handled
+	- Thus meaning several thousands were exposed and not contacted
+	- Phone notification app was delayed until after restrictions eased
+	- App on release "could handle 10,000 cases a day", but only contacted 1,749 out of 4,634 in 3 days, call handlers not being used 
+	- 16% efficiency
+		- 100 newly infected, 60 show symptoms, 39 test and receive positive, T&T reached 31,  27 of which provide contact info, 16 of the contacts actually contacted and advised to isolate
+- Running man
+	- Matt Hancock and Boris Johnson
+- Impact of failure
+	- Unjustified unimaginable cost to the government
+	- Missed targets -> further spreading
+	- Never met the 24 hour target turnaround time
+	- Low mitigation of 
+- Interesting facts
+	- Sales force under IBM 
+	- Nearly all contracted out to various companies (Deloitte, Boots, Serco, Sitel, IBM)
+
+#### Projects and Stakeholders
+- **BAU activities vs Project Work**
+- **Programme vs Individual Projects**
+- **Stages & Progression of the project lifecycle**
+- **Role of stakeholders in projects and stakeholder management**
+
+
+**Business as Usual vs. Projects**-
+- BAU - normal execution of standard operations within an organisation
+	- IT help desk tickets
+- Projects - unique and transient with a desired outcome
+	- Implementation of a new CRM system
+
+**Programme**
+- Overseas several projects not a single one
+- Can span several years
+
+**Project Lifecycle**
+- **1.** Initiation - Deciding on the project, objectives, requirements
+- **2.** Planning - Assessing tools and workflows
+- **3.** Executing - Implementing the project workflow
+- **4.** Monitoring and Controlling - Performance metrics
+- **5.** Closing - Formal acceptance, lessons learned, reviews
+
+### Activity - Parachuting Digital Transformation Programme
+
+#### Summary
+Enhancement of digital presence programme, including:
+- **User-friendly website** - information about the school, instructors, booking system, book classes and events
+- Online Store
+- CRM system to manage customer data
+#### Initiation Phase
+- Objectives, Requirements, Considerations, Deliverables
+
+**User-friendly website** 
+- Easy to use/ understand 
+- Easy layout and read, section based, cancelling events 
+- Not technically complex
+- Account for scale of the website population
+- Budget and financial plan
+- Discussing Chatbot vs support line
+- Discuss all aspects to get a good understanding for the planning stage
+
+**Debrief**
+- **1.** Project Scope and Objectives - general objectives
+- **2.** Stakeholder analysis - understanding client and customer needs
+- **3.** Resource Planning - discussing financial and other resources
+- **4.** Risk Assessment - understanding all risks
+- **5.** Project Timeline - general idea of order not firm 
+- **6.** Compliance Considerations - make sure fitting to any compliance necessities
+- **7.** Success Metrics - measuring how well the project is going
+- **8.** Technologies - tech stacks
+- **9.** Methodologies - which methods to follow
+- **10.** As-is Processes analysis - how will the new system impact current ones
+
+## Week 1 Assessment Content
+
+### Stakeholders and Balancing Resources
+#### Triple Constraint to balance Quality 
+- Time - Project Length  
+	- Rushing -> Mistakes
+	- Extra time -> Revisions
+- Cost - Price of the Project -
+	- Low Budget -> reduced resource quality and scope width
+	- High Budget - Better resources
+- Scope - Amount of work/ tasks
+	- Narrower scope -> better quality
+	- More time required, Larger scope -> spread too thinly
+All managed to ensure good quality
+
+#### POPIT - Holistic Triangle 
+Assess wider implications across company
+			
+			Organisation
+			Technology
+		People           Process
+
+Organisation - New Roles may be required
+Technology - New Tech Stacks and new technology use
+People - Training required? Who will be using it?
+Process - Change to methods used.
+
+#### Stakeholders
+- Partners
+- Suppliers
+- Regulator
+- Employee
+- Managers
+- Owners
+- Competitors
+- Current and Prospective Customers
+
+### Stakeholder Management 
+**Initiation Phase**
+- **Identify stakeholders** - *anyone* that would see impact from the project
+- **Analyse stakeholders** - assess *influence, requirements, interest*
+- **Devise stakeholder management strategies** - build strategies tailoring to their requirements interests and needs, also using different *levels of communication*
+**Execution Phase** 
+- **Review** - revise strategies and monitor stakeholders
+
+#### Power/ Influence Interest grid
+
+**High**        | Watch | Satisfy |Constant| 
+**Some**      |         Keep Onside             |
+**None**       | Ignore |  Keep Informed  |
+		|  **None |  Some   |   High**   | 
+
+
+#### Stakeholder attitudes
+- **Champion** - Actively working for the success for the project, funding, bring following
+- **Supporter** - Not active, in favour of the project
+- **Neutral** - No opinion for or against
+- **Critic** - Not in favour of the project but not actively against it
+- **Opponent** - Actively works to obstruct a project, without directly obstructing progress
+- **Blocker** - Obstructs progress, physical barrier
+
+#### Making Projects easier
+- **Positive** atmosphere
+- Manage conflict **intelligently** 
+- Open and clear **communication**
+- **Respect** all peers
+- **Trustworthiness**
+
+### Activity - Parachuting Roleplay
+
+New Zealand Parachuting school role each
+- Notes + Objectives
+- Not all info is relevant
+- DISRUPTION - achieve professionally
+- 30 mins to prep
+- Assistant CEO - Talk to everyone and assess what goes on the Agenda
+- 1 hour meeting
+- Achieve your objective whilst maintaining professional nature
+
+**Task**
+**Online store is ESSENTIAL to capitalize on projected demand**
+**Sales team charismatic but not parachuting experts, affecting effectiveness**
+
+**Objective - Ensure sales target is met**
+
+
+**Feedback** 
+- "Actionable" 's' need to be stated specifically 
+- Agenda out before or at the start
+- Developing communication strategies to satisfy everyone's objectives
+
+
+

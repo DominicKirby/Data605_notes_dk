@@ -1,0 +1,153 @@
+
+#### **Summary**
+- **Interview preparation**
+- **Personal qualities**
+- **Profile work**
+- **Intro to AI**
+
+## Sessions
+
+### Interview preparation
+
+**Competency questions**
+- Don't bring others down (avoid bitterness)
+- STAR/ CAR method
+- Emphasis on positives
+- Detail in ST or C
+- Formal/ Professional Dress
+- Professional Behaviour (representative of Sparta)
+- Correct Setup (head and shoulders, lateness, awareness of the setup of interview) 
+- Research the company **THROROUGHLY**, can never know too much
+	- Values
+	- News
+	- AI
+	- Aligned with own values
+- Practice speaking about yourself, show off!!
+	- Talk about achievements! 
+- Ask questions to the interviewers
+	- What qualities make a successful applicant
+	- Ask genuine questions
+
+**Strength and weaknesses**
+- Both are important
+- Show effort toward improvement
+- Specific examples
+
+**5 years**
+- Break it down into smaller steps if necessary
+- Be specific
+- Not just work, be honest
+
+**Personality is super important, be yourself, be natural!!**
+
+**2 main things**
+- Fit into the team/ get on well with the team
+- Competence
+
+**Tell me about yourself**
+- Walk the walk, Talk the talk
+- Communicating capabilities is highlighted as part of training
+- Clear and Concise
+- 60-90 seconds
+- How you say it is as important as what you say
+- Only get general structures
+	- Three Act : Past->Present->Future
+	- Hourglass (Broad intro, Specific Experience, Specific Expertise, Broad ending) 
+
+
+
+
+**Personal Qualities List**
+- **Work Experience** Student Ambassador, Mentoring, Security work, Athletics Coach, Voluntary work at my old primary school
+- University of Sheffield Maths First Class
+- Projects 
+	- **Group** - Data Reduction methods assessment, research task, Mandelbrot set 
+	- **Individual** - Machine Learning digit recognition, Machine learning feature impact assessment, Artificial data + reduction, Chessboard
+	- **Presentation** - Impact of the possible green reuses of AI data centre waste heat
+	- **Personal project** - Website to perform basic mathematical functions
+- Mountain biking travelled across the UK learning from scratch through hardships, love for cars, Arsenal and English world and European football, Formula 1, Piano up to capability to complete grade 5
+- **Strengths** - Communication and adaptability from previous work involving many different parties, eager to learn new things, picked up java in a day for an assessment, confident in various environments, group/ individual/ presentations.
+- **Skills** - Python and R programming skills, clear and concise translation of data into document form, communication, data analysis, adaptability, hardworking, will put the effort in to do things and attend everything punctually and ready for the activity. 
+- I want to enjoy my work and upskill during my time there in order to continuously develop, salary to live comfortably but have time for family and personal activities beyond work, life's not about money.
+- Motivated by learning new things and making myself better, affinity for data and analysis, and developed interpersonal skills from work experience to work as a contractor under Sparta, quick development and stepping stone into a career in data, 
+
+
+**Past** 
+- University of Sheffield Maths First-Class BSc.
+- Student Ambassador, been mentored and did mentoring.
+
+**Present**
+- Python and R programming skills from projects.
+- Communicative and confident in any working environment from my presentation and group projects in final year.
+- Affinity for working with data and the ability to translate data into clear and concise type form.
+- Eager to learn and dive head first into new things, personal project great sense of achievement when completed.
+
+- Mountain biking travelled across the UK learning from scratch through hardships. 
+**Future**
+- I want to enjoy my day to day work and achieve something real. 
+- Upskill during my time there to foster continuous development
+- **Data scientist and why?**  
+
+Be more specific about the projects
+
+More candid than this environment 
+Don't overthink anything 
+
+### Profile work
+
+AI - watermarks in the text (American, M-dash) 
+
+#### Main Properties 
+- **Next token prediction** - vastly sophisticated autocomplete
+- **Knowledge** - Training Data
+- **Working memory** - What its prompted to account for
+- **Steerability** - Continuing a pattern not an intent
+
+**AI prompt manipulation** 
+- Feed it more context to direct it into further detail
+	- i.e. information about you 
+	- Format of answer
+	- Explain or demonstrate etc.
+	- Amount of technical jargon 
+	- i.e. technically limited knowledge 
+- More specific the higher chance of yielding an answer you want
+- Iterative nature
+- Use an example of an output that you desire (1 shot prompting)
+- Using a further example is (2 shot prompting) etc.
+- "Give me an example of a think-first prompt using the previous scenario"
+- Chain prompting - multiple in one
+
+**Data Privacy** - Focus on this first
+ - Anonymise where necessary
+ - Remove company data, names, places, etc.
+
+**AI Fluency Framework (4D's)**
+- Delegation - setting goals and deciding whether to engage with AI.
+- Description - Effectively describing goals to prompt useful behaviour and output.
+- Discernment - Accurate assessment of the usefulness of the AI outputs and behaviours.
+- Diligence - Take responsibility for what we do with AI and how we do it.
+
+
+**Data Engineering trainee AI use:**
+
+- Spell checking non-sensitive documents 
+- Assistance with understanding coding during individual work
+- Researching large amounts of information quickly, which including time taken to double check information would still be more efficient
+- Checking programming issues and assisting to find bugs with code
+
+**AI tools**
+Databricks - scale data transformations, process batch inferences and manage jobs natively
+Snowflake Cortex - AI to generate analytics in a data warehouse
+
+**Tools for automating pipelines**
+4 Categories: 
+- Workflow Orchestrators - task management, error recovery, monitoring
+	- Apache Airflow - python code based for DAGs (directed acyclic graph) to schedule tasks
+- Ingestion and Extraction tools - automate the movement from databases into lakes and warehouses
+	- Fivetran - low maintenance with pre-built connectors 
+- Data Transformation tools - automate SQL and PySpark data modelling
+	- dbt - industry standard for internal to the warehouse
+- CI/CD, quality and infrastructure automation - code lifecycle, infrastructure, reliability testing
+	- Terrafrom - automatically provision warehouse and cloud storage
+
+
