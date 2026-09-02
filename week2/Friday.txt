@@ -1,0 +1,58 @@
+
+
+**Presentation feedback**
+Drop table at the start of the SQL file (may have to be in reverse)
+Overall good and well-presented
+
+Give more examples of different actions, UPDATE, INSERT, DELETE etc.
+
+
+### Questions
+
+#### Data Storage & Design
+
+What is ETL?  
+- Extract from CSV
+- Transform and manipulate the data
+- Load the data into a database
+What is ELT?
+- Extract from CSV TXT
+- Load the data into an unorganised database
+- Transform and analyse when you need it
+What are the main differences between ETL and ELT pipelines?
+- The database you create is harder to work with in ELT than ETL
+What is a database?
+- Interactive data store 
+Explain the two main database types
+- relational and non-relational (not organised in tables, sentenced, one object of data)
+What is a data warehouse?
+- Organised data storage as a result of ELT, structured data instead
+What is a data lake?
+- Unorganised not structured data store instead, file types can vary
+How is a database structured?
+- Relational - primary keys, foreign keys, tables, links
+- Non-relational - flexibly 
+What is normalisation?
+- Break down tables into 3 forms 
+What are the advantages and disadvantages of normalisation?
+- Easy changes to data but harder to query
+What is a junction table?
+- A connection between primary and foreign keys only 
+What is dimensional modelling?
+- Modelling a database in various dimensions 
+Explain the differences between star schema and snowflake schema in dimensional modelling
+- 
+
+
+
+### Querying
+
+*SELECT* DISTINCT *FROM* WHERE  /  GROUP BY  /  HAVING  /  ORDER BY
+
+*FROM* WHERE  /  GROUP BY  /  HAVING *SELECT* DISTINCT  ORDER BY 
+
+*SELECT TOP* **INT**  
+
+**Wildcards** - get all the products names that begin with C e.g.
+- % - substitute for 0 or more characters
+- _ - substitute for a single character 

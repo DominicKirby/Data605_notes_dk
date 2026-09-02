@@ -1,0 +1,11 @@
+
+
+SQL 
+
+**1st normal form** - Atomic and no repeated groups
+
+Junction table (pink) - Composite primary keys are unique
+
+**2nd normal form** - No partial dependencies on composite keys (i.e. stream is not dependent on student, only course name)
+
+**3rd normal form** - dependencies in the non key column, (transitive dependencies), (i.e. course duration dependent on location not course)

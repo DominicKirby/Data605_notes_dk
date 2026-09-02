@@ -1,0 +1,303 @@
+## Sessions
+
+#### Data concepts
+Ideas to come before actual data practice
+
+*"Who rules data rules the world"*
+
+Critical thinking is ***SIMPLE***:
+***S -*** **Source**
+***I -*** **Irrelevant**
+***M** -* **Missing**
+***P -*** **Presentation**
+***L -*** **Alternative** 
+***E -*** **Evidence** 
+
+**Source** 
+- Question that data source for biases
+	- Who collected it
+	- Who stands to gain
+- Question the reliability
+	- How was the data collected
+	- What was the context
+	- Could the method impact results
+	- Does it measure what it claims/ intends to measure
+
+**Irrelevant**
+- Identify relevant and irrelevant data
+- If you are conducting analysis, this is important
+	- i.e. large data set should not be analysed all over
+- From analysis from others is the data provided relevant
+	- Topic
+	- Time period
+	- Cultural or geographical location
+
+**Missing**
+- Identify any important missing data 
+- Is it missing intentionally
+- Is it missing by chance
+
+**Presentation**
+- Ensure proper presentation
+- Appropriate...
+	- Chart type
+	- Axes
+	- Units
+	- Scale
+	- Wording
+- Attempts to hide the data
+- Totals vs. Percentages
+- Ideal population is around 50%
+
+**Alternative**
+- Alternative explanations for data 
+- Obvious != Correct
+- Prior expectations taint conclusions
+- Alternative explanation => radically different conclusions
+
+**Evidence**
+- Are the assertions supported by evidence
+- Assertions vs. Suppositions
+	- *This is caused by*
+	- *This might be caused by*
+- Facts vs. Opinions
+	- *High populations than*
+	- *Better than*
+
+
+
+### Data quality and cleaning
+
+#### Activity
+
+![[Pasted image 20260824103948.png]]
+
+**Issues with this dataset**: 
+- Missing data
+- Non-consistent format for the height, post code, phone numbers, birthday, name
+	- 5ft4 and 162cm and 1m40
+	- HJ83WY and HJ8-3WY and G56 7OP
+	- 7181537576 and 020 8133 7986
+	- 12-Oct-89 and 13/01/1978
+	- Olivia L, John Smith, Bethany
+- Incorrect Email
+- Impossible entries in the data column
+- Incorrect data entry for john's phone number
+- Incorrect formal for Kevin DAvies
+
+**How to go about cleaning it**
+- Format information that's there
+- Remove multiple entries
+- Remove any rows with missing data
+
+
+#### Data errors
+
+**Validity**
+- Possible results or invalid
+- Non-valid structure for emails and phone numbers
+- *The degree that data complies with rules or constraints*
+	- Data-type
+	- Range
+	- Mandatory constraints (Primary columns)
+	- Unique constraints (Bank)
+	- Regular expression pattern (Phone numbers, Postcodes)
+
+**Accuracy**
+- Valid != accurate
+- *The degree the data reflects the true value or standard*
+	- Absolute accuracy is hard to achieve
+	- Sometimes not obvious
+- E.g. born in 1699, blue eyes for someone with green
+
+**Completeness**
+- *The degree to which all required data points are known*
+	- Missing values or truncated information
+
+**Consistency**
+- Close to duplication
+- Consistent information throughout
+- *The degree to which data points are consistent across their group*
+	- Different information for same individual
+	- Contradictory information for one individual
+	- Inaccurate data
+
+**Uniformity**
+- Formatting issues
+- Height in different units/ Birthday in different formats
+- *The degree to which data follows the same units of measure*
+	- Not using the same scales (weight, distance, currency)
+	- Not using the same measure formats (data, time, addresses)
+
+**Redundancy**
+- *Same observation in a database or storage technology*
+	- Complete copy
+	- Multiple input
+
+
+#### Data cleaning
+
+**Irrelevant data**
+- Data that is not needed and does not fit the context of the problem we are trying to solve
+	- Drop unneeded columns, ***do not delete data without backup***
+	- Hide unneeded columns is safer than deletion
+
+**Duplicates**
+- Repeated data points
+	- If an entire record is duplicated, remove
+	- If only some of the information is duplicated, ***explore*** in detail and ***fix***
+
+**Type conversion**
+- Numbers stored as numbers
+- Date as a date object
+- Categorical values converted into and from numbers
+- Right data type enables correct operations
+- If values cannot be converted into the appropriate type, it should be ***fixed manually*** or ***converted to NA value*** or ***removed***
+
+**Padding**
+- Strings and numbers can be ***padded*** with extra digits to ensure they are a certain width
+	- ID numbers passwords
+	- Phone numbers (leading 0)
+
+**Typos**
+- Strings can be entered in many ways and can have many mistakes
+	- Use a bar plot to visualize unique values
+	- Manually mapping values to correct word
+	- Pattern matching (function to specific letter or word)
+	- Fuzzy matching (function to check operations to convert one string to another)
+
+**Standardisation**
+- Put each value in the same format so that it is uniform
+- Strings - same casing
+- Numbers - same precision (DPs)
+- Measurement - same units
+- Currency - same currency and format
+- Date/time - use the same format
+
+**Scaling**
+- Scale values to a specified range
+- Any range of values
+- Scale we can compare and plot different scores
+- Types of scaling:
+	- ***Normalization*** - rescales the value between 0-1 
+
+
+
+#### Missing values
+
+**Drop**
+- ***Drop rows*** containing missing values
+- If most of the values in a column are missing ***drop the column***
+- Possible to drop rows/columns based on criteria
+
+**Impute**
+- Filling in missing values based on other observations
+	- ***Mean***
+	- ***Median***
+	- ***Linear Regression***
+
+**Hot-deck**
+- Copying values from other similar records
+- Numerical or categorical data
+	- ***Random***
+	- ***Sequential*** - last observation carried forward
+- Cold-decking - another dataset
+
+**Flagging**
+- Do not handle the data just flag for the algorithm should know about it
+- Get rid of NaN values
+	- ***Number*** - 0
+	- ***Categorical*** - Missing
+
+### Data visualisation
+
+Summary statistics alone do not portray the exact data: 
+
+![[Pasted image 20260824120855.png|590]]
+
+All share the same summary statistics but are completely different
+
+#### 3 Principles of data visualisation
+- **Trustworthy**
+	- Sources
+	- Titles
+	- Layout
+- **Accessibility**
+	- Audience must be able to:
+		- Perceive
+		- Understand
+		- Interpret 
+	- Make it clear and obvious (colour blindness)
+- **Elegant**
+	- Often means simplicity
+	- Could add flair if appropriate
+	- Incorporate the theme sensibly
+
+#### **Tables**
+- A good table has:
+	- Numbers must be right-aligned in a monospaced font
+	- Text left-aligned
+	- Equal column spacing
+	- Colour use sparingly
+	- Consistent measurement units
+	- Appropriate precision for the audience
+	- ***"Remove to improve"***
+- Highlight table
+	- Remove data and keep colours to give an easy view
+
+#### **Charts**
+
+**Methods and when to use them**
+
+| Chart Type             | Suitable Data                                                  | Good Design                                                                                                                                                                                                                                        |
+| ---------------------- | -------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Line** **charts**    | Time series data                                               | Thin lines, dots for irregular data points, maximum of 4 coloured lines per chart, for more information use a different method (small multiples line chart, slope chart)                                                                           |
+| **Bar** **charts**     | Comparing magnitudes across categories or time series          | Sort data appropriately, aim for 4-8 grey gridlines with sensible intervals, gaps between bars are 1/2 width of bars, axis OR labels, avoid vertical text, NEVER truncate axes, to compare use other method (deviation chart, clustered bar chart) |
+| **Stacked bar charts** | Comparing percentages across categories                        | Sort data appropriately, avoid vertical text, consistent precision and units, low amount of categories in the middle (harder to compare), use around 3 categories or 1 and "rest of data"                                                          |
+| **Histograms**         | Continuous bins                                                | Touching bars, continuous variable into bins, select the right amount of bins,                                                                                                                                                                     |
+| **Scatter plots**      | Comparing 2 continuous variables, well-balanced about the mean | Easy to imply correlation = causation, trend line indicate correlation, grain of the data matters (what does each point represent), does it make sense to compare the two variables, use well-balanced data (or logarithmic scale)                 |
+| **Pie charts**         | Comparing percentages instead                                  | Always 2d, not as good as other methods, donut chart has information in the centre, **6 or fewer** unless there;s one to focus on                                                                                                                  |
+| **Treemaps**           | Proportional data                                              | Square proportional chart, clear categories, show very quick size trends alternative to Pie charts, trends > data                                                                                                                                  |
+| **Waffle plot**        | Nested proportions                                             | Showing overall trends not data points specifically, more numerical than a treemap                                                                                                                                                                 |
+| **Maps**               | Area based data                                                | Circle size in certain areas, population density maps,                                                                                                                                                                                             |
+
+**Use of colours**
+- Colours consistent to connect information (same for each category across visuals)
+- Hue and Shade can be used to visually separate information
+	- Shade for ordered information
+	- Hue suitable when no implied order
+
+
+
+#### **Numbers**
+If there is a drastic difference in numbers (i.e. snake bites and following deaths)
+
+Single statistic 
+
+#### **Dashboard**
+Whole screen of organised graphs, titles, aligned nicely, visually appealing, interactive aspects in there too
+
+
+### Dashboard task
+Be clear about what the data is and what it represents but source myself
+Creative ownership
+- Colouring 
+- Fonts
+- Sizes of everything
+- Theme?
+Resources online - create a dashboard Microsoft
+
+Brief on slack
+
+Intro - Dashboard - Summary
+
+
+
+
+
+
+
+
+
+
+

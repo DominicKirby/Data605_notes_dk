@@ -1,0 +1,290 @@
+SQL this week, Presenting this morning
+
+
+Data Concepts Questions
+
+What is SIMPLE for critical thinking?
+- Source
+- Irrelevant
+- Missing values
+- Presentation 
+- Alterantive
+- Evidence
+What are the things to look out for when data cleaning?
+- Type Errors
+What are the 3 principles of data visualisation?
+- Trustworthy
+- Elegant
+- Accessibility
+What data is a line chart suitable for?
+- Time Series
+What data is a bar chart suitable for?
+- Comparing magnitudes of data in a categories
+- Time series
+What data is a stacked bar chart suitable for?
+- Percentages and proportions
+What data is a Histograms suitable for?
+- Continuous data into bins
+What data is a Scatter plots suitable for?
+- 2 variables
+What data is a Pie charts suitable for?
+- 
+What data is a Tree Maps suitable for?
+- 
+What data is a Waffle plot suitable for?
+- 
+What data is a Maps suitable for?
+- 
+What are the 6 types of data errors?
+- Valid, Accurate, Complete, Consistent, Uniformity, Redundancy
+What are the methods to correct missing values?
+- 
+
+**Presentation feedback** (97%)
+Well presented
+Maybe more introduction into the dataset and why at the start
+
+## Sessions
+
+### Data storage and accompanying factors
+
+#### Pipelines
+
+**ETL - Extract Transform Load**
+- **E** - Take it from a data source/ collection system
+	- Machinery sensors
+	- Excel files
+	- File types : .csv (separated by commas), .JSON (key value pairs), .txt (unseparated text) 
+- **T** - Manipulate if necessary
+	- Clean the data
+	- Generating new metric
+	- Converting file or bringing files together
+	- SQL
+- **L** - Load into storage
+	- Putting the cleaned and ready data into organised storage for use
+
+For different storage systems (data lakes for example)
+
+**ELT - Extract Load Transform Analytics**
+- E - Take from data source
+- L - Load into structured data file
+- T - Manipulate for use
+- A - Understanding what the data is telling us
+
+#### Database (relational or non relational)
+Organised collection of data giant filing system
+- **Store** 
+- **Retrieve**
+- **Manipulate**
+- **Query**
+
+#### Relational Data Processing (SQL)
+Managing business data for purpose
+
+**OLTP - Online Transaction Processing**
+- Online transaction processing
+- Database transactions
+	- Payments received
+	- Orders taken
+	- Bookings
+	- Inventory movement
+- High degree of normalisation
+	- Managing the dataset
+	- Low repetition
+	- Organising efficiently
+- Heavy write low read
+	- Writing to a lot
+		- Adding new records 
+		- Correcting records
+	- Reading not a lot
+		- Reports
+		- Queries
+- **Must adhere to *ACID* (Database remains valid in error, valid state every time)**
+	- **Atomicity**
+		- Single unit
+		- If part fails all fails
+	- **Consistency**
+		- Each transaction => valid database state
+	- **Isolation**
+		- Concurrent read/write executions should produce the same result as sequential executions
+	- **Durability**
+		- Transactions must remain committed in the event of system failure
+
+
+**OLAP - Online Analytic Processing**
+- Extract business intelligence from ***OLTP***
+- Adds a layer of abstraction and aggregation
+	- Semantic data models describe meaning if data elements
+	- Data integration from multiple sources aggregated together over multiple dim
+- Heavy read low write
+
+
+#### Non-Relational Data Processing (NOSQL)
+- Not stereotypical tabular form
+
+#### Data warehouses (Analytics only)
+- Designed for analytics and reporting instead of BAU operations
+- Fits into ***OLAP***
+- Examples
+	- Amazon redshift
+	- Teradata
+	- Oracle
+	- CloudEra
+	- Panopoly
+- Desinged for data analysis
+- Aggregates data from a variety of stores
+- Support analysis on data
+- Stores data that answers questions
+- Data Marts 
+	- Smaller oriented business warehouse slices
+- Made **top-down** or **down-up**
+	- **Top-down** - Stored in warehouse first then split
+	- **Down-up** - Data marts then combine into warehouse
+- Could be a mixed store in modern data
+
+
+#### Dimensional Modelling
+**Fact Tables**
+- Represent events
+- Data corresponding to business process
+- Measurement data
+- Often numeric
+- Easily aggregated
+- **Grain** - level of detail
+
+**Dimension tables**
+- Represents people/ items/ objects
+- Contains data corresponding to instances of objects
+	- Product details
+	- Calendar information
+- Dimension data
+- Often text
+- Useful for filtering
+
+**Star Schema**
+- One or more fact tables each join with number of dimension tables
+- Simple
+- Widely used
+- Effective for simple queries
+- Widely supported by BI
+![[Pasted image 20260826121407.png|344]]
+
+**Snowflake Schema**
+- Similar to a Star Schema but the Dimension tables are normalised
+- reduced disk space
+- Low data redundancy
+- Harder to perform single queries
+![[Pasted image 20260826121557.png|458]]
+
+#### Data lakes
+- Dumping ground for data
+- Newer (made possible by big data)
+- Stores structured and unstructured in original form
+- Processed with analysis is needed
+	- Schema on need (Send data in, i.e. moving files around on file explorer, as you read it you specify the file information, specific python libraries and methods for each dataset)
+- Low cost storage vs Warehouse
+- Highly scalable 
+- Highly agile
+- If overused or do not apply validation
+	- Messy data
+	- Data swamp not lake
+	- No longer agile 
+	- Have to be very capable of handling data but also any issues with the data
+- Good if done well
+
+#### Data Lake houses
+- Best aspects of both
+- Very new
+- Offers structure and control, ***ACID***
+- Flexible and scalable
+- Tracking if its up to date
+- Can decouple and seperate
+
+Cloudera, Delta Lake, Snowflake (popular)
+
+**Main differences between databases, Data Warehouses, Data Lakes**
+- 
+
+
+## Afternoon Tasks
+
+
+Data storage
+- Differences between base lakes warehouses
+SQL fundamentals teachable videos
+ - normalisation
+ - normal tools
+ - questions to complete
+
+
+
+#### Kimball Dimensional Modelling techniques
+
+4 key steps of dimensional design process 
+- **Select business process**
+	- *Operational activities performed by the organization*
+		- Taking orders
+		- Processing an insurance claim
+		- Registering students for a class
+	- Capture and generate performance metrics that go into the fact table
+	- Targeting a single process allows for the rest of the steps to be defined
+	- Corresponds toa  row in the enterprise data warehouse bus matrix
+- **Declare the grain**
+	- Grain establishes what a single fact table row represents
+	- Must be chosen next because all information must be consistent with the grain
+		- Ensures ***Uniformity***
+	- Atomic grain - lowest level at which data is captured by a process
+		- Start focussed on this because its more solid for queries
+	- More than one grain => more than one fact table
+- **Identify the dimensions**
+	- Key links to the fact table, cleanly connects numerical measurements to descriptions
+	- Who, what, where, when, why, and how? about a process
+	- Using grain all possible dimensions can be identified
+- **Identify the facts**
+	- Facts are the measurements that result from a process
+	- A single fact row has a one-to-one relationship with the measurement event according to the grain of the fact table
+	-  Corresponds to a physical event
+
+**Star Schemas**
+- Dimensional structures deployed in a relational database management system. 
+- Fact table -> associated dimension tables (primary/ foreign key relationships)
+- **OLAP** cube is a dimensional structure implemented in multidimensional database (or relational star schema)
+- More advanced than SQL (e.g. XLMA)
+- Final step in deployment of a dimensional DW/BI system
+
+#### Fact table deeper dive
+Numeric measures are one of the following
+- Additive - summed across dimensions
+- Semi-additive - summed across some dimensions but not all
+- Non-additive - (ratios) cannot be summed anywhere
+
+NULL entries behave gracefully
+- All aggregate functions do the 'right thing'
+NULL's avoided in the fact tables foreign keys section
+
+Conformed facts are facts that have to be identical if they share similarities in the technical definitions
+
+#### Dimension Table deeper dive
+**Structure** is as follows
+- Single primary key column, embedded as a foregin key in any associated fgact tabel
+- Wide and flat denormalized tables with many text attributes
+- Anonymous keys for every dimension, i.e. dimension surrogate keys
+- Natural keys (ID numbers) are independent of the system, business side
+
+**Drilling down** - most fundamental way data is analysed 
+- Adding a row header to an existing query
+- GROUP BY in SQL
+##### Conformed Dimensions
+- Dimension tables conform if a different Dimension table has the same attribute column name and contents
+- **Drilling across** - comparing fact tables with identical row headers
+- **Enterprise Data Warehouse Bus architecture** - incremental approach to building the enterprise DW/BI system
+	- Breaks up the planning stage into manageable pieces
+	- Provides architectural framework in an ***Agile*** way
+- Uses the **Enterprise Data Warehouse Bus Matrix** for design and communicating the architecture
+
+
+Database - Structured data storage in an organised collection for efficient retrieval and processing
+
+Data lake - vast store unorganised data of native file formats for manipulation on requirement into correct format and file type
+
+Data warehouses - Organised and cleaned data in a organised environment for easy access to any business information and statistics
