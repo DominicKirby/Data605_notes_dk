@@ -1,0 +1,51 @@
+OrderID,Date,CustomerName,Region,Product,Quantity,Price,Discount,Total
+ORD0001,2023-04-13,Bob,North America,Tablet,4,49.99,0.1,179.96
+ORD0002,2023-04-17,,Africa,Monitor,8,49.99,0.0,399.92
+ORD0003,2023-04-13,Alice,Africa,Smartphone,3,499.99,0.1,1349.97
+ORD0004,2023-03-29,Hannah,africa,Tablet,5,999.99,0.15,4249.96
+ORD0005,2023-01-24,Grace,Asia-Pacific,Tablet,3,49.99,0.05,142.47
+ORD0006,2023-03-29,Bob,South America,Laptop,6,299.99,0.15,1529.95
+ORD0007,2023-03-01,Alice,South America,Headphones,5,199.99,0.15,849.96
+ORD0008,2023-02-27,Eve,Africa,Tablet,6,49.99,0.15,254.95
+ORD0009,2023-03-30,Diana,Asia-Pacific,Laptop,1,499.99,0.1,449.99
+ORD0010,2023-02-11,Hannah,Asia-Pacific,Smartphone,3,999.99,0.1,2699.97
+ORD0011,2023-04-26,Bob,Africa,Smartphone,9,499.99,0.0,4499.91
+ORD0012,2023-02-20,Eve,Africa,Smartphone,7,49.99,0.0,349.93
+ORD0013,2023-02-08,Diana,North America,Tablet,2,999.99,0.0,1999.98
+ORD0014,2023-03-01,Frank,Europe,Monitor,2,299.99,0.0,599.98
+ORD0015,2023-03-31,Eve,Europe,Smartphone,5,299.99,0.15,1274.96
+ORD0016,2023-04-02,Grace,Africa,Monitor,7,999.99,0.0,6999.93
+ORD0017,2023-01-08,Hannah,North America,Laptop,3,199.99,0.15,509.97
+ORD0018,2023-02-19,Grace,Africa,Laptop,8,999.99,0.05,7599.92
+ORD0019,2023-01-06,Eve,Africa,Laptop,6,299.99,0.15,1529.95
+ORD0020,2023-02-23,Eve,Asia-Pacific,Laptop,2,299.99,0.15,509.98
+ORD0021,2023-02-03,Eve,Africa,Smartphone,4,999.99,0.0,3999.96
+ORD0022,2023-03-03,Diana,Europe,Tablet,8,49.99,0.15,339.93
+ORD0023,2023-04-19,Alice,Africa,Tablet,2,49.99,0.15,84.98
+ORD0024,2023-01-26,Eve,Europe,Laptop,9,999.99,0.15,7649.92
+ORD0025,2023-04-19,Hannah,North America,Headphones,9,49.99,0.1,404.92
+ORD0026,2023-02-14,Charlie,Asia-Pacific,Headphones,1,199.99,0.1,179.99
+ORD0027,2023-01-09,Diana,Asia-Pacific,Monitor,8,199.99,0.15,1359.93
+ORD0028,2023-01-08,Hannah,North America,Smartphone,8,499.99,0.1,3599.93
+ORD0029,2023-03-22,,Africa,Smartphone,8,499.99,0.1,3599.93
+ORD0030,2023-02-02,,North America,Tablet,5,299.99,0.1,1349.96
+ORD0031,2023-02-10,Diana,Africa,Smartphone,7,199.99,0.15,1189.94
+ORD0032,2023-01-12,Diana,South America,Monitor,2,199.99,0.15,339.98
+ORD0033,2023-04-29,Grace,South America,Monitor,7,49.99,0.1,314.94
+ORD0034,2023-02-13,Bob,North America,Monitor,8,499.99,0.1,3599.93
+ORD0035,2023-03-06,Diana,Europe,Headphones,3,49.99,0.1,134.97
+ORD0036,2023-03-19,Diana,North America,Monitor,3,199.99,0.0,599.97
+ORD0037,2023-03-31,Alice,North America,Smartphone,7,499.99,0.0,3499.93
+ORD0038,2023-03-20,Grace,North America,Smartphone,3,199.99,0.15,509.97
+ORD0039,2023-04-06,Hannah,Asia-Pacific,Monitor,4,49.99,0.1,179.96
+ORD0040,2023-04-13,Hannah,Europe,Smartphone,4,49.99,0.15,169.97
+ORD0041,2023-03-12,,Asia-Pacific,Laptop,3,999.99,0.05,2849.97
+ORD0042,2023-02-11,,North America,Headphones,9,49.99,0.05,427.41
+ORD0043,2023-01-28,Diana,South America,Laptop,4,499.99,0.15,1699.97
+ORD0044,2023-04-29,Alice,Africa,Laptop,9,199.99,0.0,1799.91
+ORD0045,2023-01-27,Eve,Europe,Tablet,9,999.99,0.0,8999.91
+ORD0046,2023-04-15,Eve,South America,Tablet,3,499.99,0.0,1499.97
+ORD0047,2023-03-03,Bob,North America,Headphones,5,199.99,0.1,899.96
+ORD0048,2023-04-16,Bob,Europe,Tablet,8,499.99,0.05,3799.92
+ORD0049,2023-02-01,,Africa,Headphones,8,199.99,0.15,1359.93
+ORD0050,2023-04-23,Bob,Europe,Tablet,1,299.99,0.15,254.99
