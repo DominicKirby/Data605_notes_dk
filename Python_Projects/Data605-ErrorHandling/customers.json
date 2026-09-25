@@ -1,0 +1,66 @@
+{
+  "customers": [
+    {
+      "customer_id": 1001,
+      "first_name": "Alice",
+      "last_name": "Smith",
+      "email": "alice.smith@email.com",
+      "phone": "07700 900123",
+      "date_joined": "2024-03-15",
+      "is_active": true,
+      "address": {
+        "street": "12 High Street",
+        "city": "Manchester",
+        "postcode": "M1 1AA"
+      },
+      "orders": [
+        {
+          "order_id": 5001,
+          "product": "Laptop",
+          "amount": 899.99
+        },
+        {
+          "order_id": 5002,
+          "product": "Wireless Mouse",
+          "amount": 24.99
+        }
+      ]
+    },
+    {
+      "customer_id": 1002,
+      "first_name": "James",
+      "last_name": "Brown",
+      "email": "j.brown@email.com",
+      "phone": "07700 900456",
+      "date_joined": "2023-11-02",
+      "is_active": false,
+      "address": {
+        "street": "45 King Road",
+        "city": "Birmingham",
+        "postcode": "B2 4BB"
+      },
+      "orders": [
+        {
+          "order_id": 5003,
+          "product": "Monitor",
+          "amount": 199.99
+        }
+      ]
+    },
+    {
+      "customer_id": 1003,
+      "first_name": "Sarah",
+      "last_name": "Wilson",
+      "email": "sarah.wilson@email.com",
+      "phone": null,
+      "date_joined": "2025-01-18",
+      "is_active": true,
+      "address": {
+        "street": "8 Park Avenue",
+        "city": "Leeds",
+        "postcode": "LS1 5CC"
+      },
+      "orders": []
+    }
+  ]
+}
