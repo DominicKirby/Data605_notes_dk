@@ -33,7 +33,7 @@ def import_db():
 connection = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="Reebok17.",
+    password="",
     database="star_wars",
 )
 
